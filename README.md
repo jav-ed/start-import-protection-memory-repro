@@ -12,9 +12,9 @@ npm run measure
 Result on Node 26.7.0, Linux x64, `@tanstack/react-start` 1.168.60 (`@tanstack/start-plugin-core` 1.171.49), Vite 7.3.6:
 
 ```
-live heap after the first page, import protection on:  477.9 MB
-live heap after the first page, import protection off: 158.5 MB
-difference: 319.4 MB
+live heap after the first page, import protection on:  474.4 MB
+live heap after the first page, import protection off: 157.5 MB
+difference: 316.9 MB
 ```
 
 Set `MODULES=3000` before `npm run measure` to see the difference grow with the module count.
